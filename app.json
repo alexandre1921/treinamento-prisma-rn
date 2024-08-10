@@ -12,13 +12,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alexandre190201.treinamentoprismarn"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alexandre190201.treinamentoprismarn"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,6 +31,8 @@
       }
     },
     "owner": "alexandre190201",
-    "plugins": ["@prisma/react-native"]
+    "plugins": [
+      "@prisma/react-native"
+    ]
   }
 }

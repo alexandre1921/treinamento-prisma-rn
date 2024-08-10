@@ -38,3 +38,7 @@ yarn-error.*
 bun.lockb
 package.lockb
 yarn.lock
+
+# native folders
+android
+ios
