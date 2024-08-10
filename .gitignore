@@ -33,3 +33,8 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# package managers
+bun.lockb
+package.lockb
+yarn.lock
